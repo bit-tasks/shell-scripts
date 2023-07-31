@@ -1,9 +1,7 @@
 #!/bin/bash
 
 # arguments to the script
-GIT_USER_NAME="$1"
-GIT_USER_EMAIL="$2"
-WSDIR="$3"
+WSDIR="$1"
 
 # branch name
 BRANCH_NAME="bit-dependency-update"

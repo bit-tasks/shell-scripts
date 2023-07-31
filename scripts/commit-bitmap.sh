@@ -1,16 +1,14 @@
 #!/bin/bash
 
 # arguments to the script
-G_NAME="$1"
-G_EMAIL="$2"
-WSDIR="$3"
+WSDIR="$1"
 
 # change to working directory before running the commands
 cd ${WSDIR}
 
 # run the commands
-git config --global user.name "${G_NAME}"
-git config --global user.email "${G_EMAIL}"
+git config --global user.name "${GIT_USER_NAME}"
+git config --global user.email "${GIT_USER_EMAIL}"
 git add .bitmap
 
 # try to commit the changes
