@@ -20,6 +20,7 @@ Shell Script Tasks that you can use in Github Actions, AzureDevOps, GitLab and o
 | Bit Verify Components   | [verify.sh](/scripts/verify.sh) |
 | Bit Tag and Export      | [tag-export.sh](/scripts/tag-export.sh) |
 | Bit Pull Request Build  | [pull-request.sh](/scripts/pull-request.sh) |
+| Bit Lane Cleanup        | [lane-cleanup.sh](/scripts/lane-cleanup.sh) |
 | Commit Bitmap           | [commit-bitmap.sh](/scripts/commit-bitmap.sh) |
 
   :arrow_down: [Download Files](https://github.com/bit-tasks/shell-scripts/raw/main/downloads/automating-component-releases.zip)
@@ -48,8 +49,9 @@ Run these scripts by passing the parameters in order. For example:
 
 ## Contributor Guide
 
-```
-git commit -m "Update task"
-git tag -a -m "action release" v1 --force
-git push --follow-tags
+To create zip files use the below commands.
+
+```bash
+chmod +x zip_files.sh
+bash ./zip_files.sh
 ```
