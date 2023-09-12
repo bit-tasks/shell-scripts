@@ -9,5 +9,5 @@ cd ${WSDIR}
 
 bit status --strict
 bit lane create ${LANE_NAME}
-bit snap -m "CI"
+bit snap -m "CI" --build
 bit export

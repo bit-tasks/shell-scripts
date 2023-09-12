@@ -11,7 +11,7 @@ cd ${WSDIR}
 
 bit status --strict
 bit lane create ${LANE}
-bit snap -m "CI"
+bit snap -m "CI" --build
 
 # try to remove the bit lane
 bit lane remove ${ORG}.${SCOPE}/${LANE} --remote --silent 2> /dev/null

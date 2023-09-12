@@ -7,5 +7,5 @@ WSDIR="$1"
 cd ${WSDIR}
 
 # run the commands
-bit tag -m "CI"
+bit tag -m "CI" --build
 bit export
