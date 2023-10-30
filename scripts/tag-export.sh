@@ -8,4 +8,8 @@ cd ${WSDIR}
 
 # run the commands
 bit tag -m "CI" --build
+
+# for soft tagging workflow use
+# bit tag -m "CI" --build --persist
+
 bit export
