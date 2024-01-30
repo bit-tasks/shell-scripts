@@ -6,7 +6,7 @@ Shell Script Tasks that you can use in Github Actions, AzureDevOps, GitLab and o
 1. You need to define the following environment variables in your CI platform and share them across the tasks.
     - `GIT_USER_NAME` - Your Git user name.
     - `GIT_USER_EMAIL` - Your Git email.
-    - `BIT_CLOUD_ACCESS_TOKEN`([docs](https://bit.dev/reference/ci/other-ci#generating-an-access-token)) or `BIT_CONFIG_USER_TOKEN`([docs](https://bit.dev/reference/reference/config/bit-config/#modify-a-configuration-value)).
+    - `BIT_CLOUD_ACCESS_TOKEN`([docs](https://bit.dev/reference/ci/other-ci#generating-an-access-token)).
     - `BIT_CONFIG_ANALYTICS_REPORTING` - `"false"`
     - `BIT_CONFIG_ANONYMOUS_REPORTING` - `"false"`
     - `BIT_CONFIG_INTERACTIVE` - `"false"`
