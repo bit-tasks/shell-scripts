@@ -48,7 +48,7 @@ Run these scripts by passing the parameters in order. For example:
 ```
 
 ## Setup PNPM Caching
-You can speed up the CI builds by caching the `pnpm store`. Refer to the official documentation for [continuous integration](https://pnpm.io/continuous-integration) from pnpm.
+You can speed up the CI builds by caching the `pnpm store`. Refer to the official documentation for [continuous integration](https://pnpm.io/continuous-integration) by `pnpm`.
 
 
 ## Contributor Guide
