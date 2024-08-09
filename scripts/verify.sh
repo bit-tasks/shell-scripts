@@ -4,7 +4,7 @@
 WSDIR="$1"
 
 # change to working directory before running the commands
-cd ${WSDIR}
+cd "${WSDIR}"
 
 # run the commands
 bit status --strict

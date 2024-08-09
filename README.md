@@ -38,6 +38,7 @@ Shell Script Tasks that you can use in Github Actions, AzureDevOps, GitLab and o
 | Task                        | Shell Script Example                   |
 |-----------------------------|-------------------------------|
 | Branch Lane                 |  [branch-lane.sh](/scripts/branch-lane.sh) |
+| Lane Branch                 |  [branch-lane.sh](/scripts/lane-branch.sh) |
 
   :arrow_down: [Download Files](https://github.com/bit-tasks/shell-scripts/raw/main/downloads/branch-lane.zip)
 
@@ -45,6 +46,7 @@ Run these scripts by passing the parameters in order. For example:
 
 ```shell
 ./scripts/branch-lane.sh <wsdir>
+./scripts/lane-branch.sh <wsdir> <lane-name> <branch-name>
 ```
 
 ## Setup PNPM Caching

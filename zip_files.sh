@@ -13,5 +13,8 @@ zip -j downloads/automating-component-releases.zip \
     scripts/verify.sh
 
 # Zip other individual files
-zip -j downloads/branch-lane.zip scripts/branch-lane.sh
+zip -j downloads/branch-lane.zip \
+    scripts/branch-lane.sh \
+    scripts/lane-branch.sh
+   
 zip -j downloads/dependency-update.zip scripts/dependency-update.sh

@@ -5,7 +5,7 @@ LANE_NAME="$1"
 WSDIR="$2"
 
 # change to working directory before running the remaining commands
-cd ${WSDIR}
+cd "${WSDIR}"
 
 bit status --strict
 bit lane create ${LANE_NAME}
