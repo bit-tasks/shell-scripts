@@ -38,7 +38,7 @@ Shell Script Tasks that you can use in Github Actions, AzureDevOps, GitLab and o
 | Task                        | Shell Script Example                   |
 |-----------------------------|-------------------------------|
 | Branch Lane                 |  [branch-lane.sh](/scripts/branch-lane.sh) |
-| Lane Branch                 |  [branch-lane.sh](/scripts/lane-branch.sh) |
+| Lane Branch                 |  [lane-branch.sh](/scripts/lane-branch.sh) |
 
   :arrow_down: [Download Files](https://github.com/bit-tasks/shell-scripts/raw/main/downloads/branch-lane.zip)
 
