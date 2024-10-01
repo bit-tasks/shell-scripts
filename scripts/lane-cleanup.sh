@@ -12,6 +12,8 @@ BIT_TOKEN="$5"
 # change to working directory before running the remaining commands
 cd "${WSDIR}"
 
+# Choose one of the following options
+
 # Option 1: Hard Delete
 bit lane remove "${ORG}.${SCOPE}/${LANE}" --remote --silent --force 2> /dev/null
 if [ $? -ne 0 ]; then
