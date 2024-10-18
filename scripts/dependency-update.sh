@@ -9,10 +9,14 @@ BRANCH_NAME="bit-dependency-update"
 # change to working directory before running the commands
 cd "${WSDIR}"
 
-# run the commands
-bit checkout head --all # update workspace components
-bit envs update # update envs
-bit update -y # update external dependencies
+# Checkout the latest versions of all workspace components
+bit checkout head --all
+
+# Update environment dependencies. Optionally use glob pattern to filter specific components (if any specified)
+bit envs update
+
+# Update external dependencies. Optionally use version-update-policy (patch, minor, major, or semver)
+bit update -y 
 
 # check git status
 STATUS_OUTPUT=$(git status --porcelain)
